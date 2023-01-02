@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+body {
+	padding: 0 10% 0 10%;
+	background-color: #a7a7aa;
+}
+.principal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: beige;
+}
+.titulo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	height: auto;
+	margin: 20px 0 10px 0;
+}
+
+.beneficios {
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: flex-start;
+
+	gap: 10%;
+	margin: 5%;
+}
+.imagenes {
+	/* width: 15rem; */
+	height: 10rem;
+	object-fit: contain;
+	background: transparent;
+}
+.beneficios div {
+	display: flex;
+	width: 15%;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+h2 {
+	font-weight: bold;
+	font-size: 30px;
+}
